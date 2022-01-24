@@ -5,6 +5,10 @@
     font-family: 'Outfit', sans-serif;
 }
 
+body {
+    background-color: #1B2223;
+}
+
 .title{
     display: flex;
     justify-content: center;
@@ -12,35 +16,41 @@
     font-size: 50px;
     font-weight: bold;
     padding-top: 50px;
-    padding-bottom: 15px;    
+    padding-bottom: 15px;
+    color: #f4fefd;    
 }
 
 #outter-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: pink;
+    display: grid;
+    background-color: #3a4f50;
     margin: 0 auto;
     height: 600px;
-    width: 400px
+    width: 400px;
+    padding: 10px;
+    border-radius: 4px;
 }
 
 .screen{
     height: 100px;
-    margin: 0 auto;
-    background-color: grey;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-top: 10px;
-
+    margin: 0 10px;
+    background-color: #0ef6cc;
+    font-size: 60px;
+    text-align: right;
+    border-radius: 5px;
+        
  }
 
  button {
-     background-color:white;
-     height: 40px;
-     width: 40px;
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
+     background-color:#f4fefd;    ;
+     height: 92px;
+     width: 92px;
+     font-size: 30px;
+     color: #1B2223;
+     border-color: #1B2223;
+     border-radius: 30px;    
+
+ }
+
+ button.zero {
+    width: 187px;
  }
