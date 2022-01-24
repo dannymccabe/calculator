@@ -32,7 +32,10 @@ const factorial = function(n) {
 
 // psudocode steps for 5x5=25
 // 1. create an empty array to store input
+const userInput = [];
 // 2. add event listener to numbers (click) that pushes them to an array.
+const one = document.getElementById("one");
+one.addEventListener("click", //to screen function)
 // 3. add event listener to multiplication button to call multiply function.
 // 4. add clicked numbers as arguments for the multiplication function.
 // 5. add event listener to the equals button to run multiplication function.
